@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import UserRegister from "./pages/Register/UserRegister";
 // import PostJob from "./pages/PostJob";
 // import BrowseWorkers from "./pages/BrowseWorkers";
 // import WorkerRegister from "./pages/WorkerRegister";
@@ -12,6 +13,7 @@ export default function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/register" element={<UserRegister />} />
         {/* <Route path="/post-job" element={<PostJob />} />
         <Route path="/browse-workers" element={<BrowseWorkers />} />
         <Route path="/register-worker" element={<WorkerRegister />} />
